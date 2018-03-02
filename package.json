@@ -1,0 +1,26 @@
+{
+  "name": "dampfplauderer",
+  "version": "0.0.1",
+  "description": "Easily fake APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmtoball/dampfplauderer.git"
+  },
+  "keywords": [
+    "swagger",
+    "json",
+    "api",
+    "fake",
+    "Faker.js"
+  ],
+  "author": "Johannes Maximilian Toball",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmtoball/dampfplauderer/issues"
+  },
+  "homepage": "https://github.com/jmtoball/dampfplauderer#readme"
+}
