@@ -1,0 +1,12 @@
+{
+  "name": "dampflauderer-examples",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "fake-server": "dampfplauderer ../fixtures/swagger/petstore.yaml"
+  }
+}

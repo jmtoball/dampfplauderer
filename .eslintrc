@@ -1,0 +1,9 @@
+{
+  "extends": "standard",
+  "rules": {
+    "max-len": ["error", 100]
+  },
+  "globals": {
+    "fetch": true
+  }
+}
