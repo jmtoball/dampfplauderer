@@ -3,7 +3,7 @@ const sinon = require('sinon')
 const DataFaker = require('./DataFaker')
 
 test('DataFaker', t => {
-  const subject = new DataFaker()
+  const subject = DataFaker
 
   t.test('#fakeValue', t => {
     t.notEqual(subject.fakeValue('random.word'), 'random.word', 'replaces the faker.js identifiers')

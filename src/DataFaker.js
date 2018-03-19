@@ -1,7 +1,7 @@
 const faker = require('faker')
 
 class DataFaker {
-  fakeValue (key) {
+  static fakeValue (key) {
     if (typeof key === 'function') {
       return key(faker)
     }
@@ -17,7 +17,7 @@ class DataFaker {
     return method()
   }
 
-  fake (object) {
+  static fake (object) {
     if (Array.isArray(object)) {
       return object.map(this.fake.bind(this))
     } else if (typeof object === 'object') {
