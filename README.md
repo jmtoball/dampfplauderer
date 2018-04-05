@@ -31,7 +31,7 @@ _dampfplauderer_ is for.
 
 ### Usage without Swagger
 
-If you don't use Swagger yet to document your APIs, that's no problem. You can also use dampflauderer to fake routes with ease.
+If you don't use Swagger yet to document your APIs, that's no problem. You can also use dampfplauderer to fake routes with ease.
 
 Let's create a file to set up a small, but powerful fake server:
 
@@ -135,16 +135,16 @@ You can set up a local fake server in no time:
 #### From CLI
 
 _using a local YAML schema definition…_  
-`npx dampflauderer ../fixtures/swagger/petstore.yaml`
+`npx dampfplauderer ../fixtures/swagger/petstore.yaml`
 
 _using a local JSON schema definition…_  
-`npx dampflauderer ../fixtures/swagger/petstore.json`
+`npx dampfplauderer ../fixtures/swagger/petstore.json`
 
 _using an online YAML schema definition…_  
-`npx dampflauderer https://raw.githubusercontent.com/jmtoball/dampflauderer/fixtures/swagger/petstore.yaml`
+`npx dampfplauderer https://raw.githubusercontent.com/jmtoball/dampfplauderer/fixtures/swagger/petstore.yaml`
 
 _using an online JSON schema definition…_  
-`npx dampflauderer https://raw.githubusercontent.com/jmtoball/dampflauderer/fixtures/swagger/petstore.json`
+`npx dampfplauderer https://raw.githubusercontent.com/jmtoball/dampfplauderer/fixtures/swagger/petstore.json`
 
 Result in any case:  
 
